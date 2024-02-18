@@ -1,0 +1,132 @@
+.app__findus {
+    background-color: var(--color-black);
+
+}
+
+.app__findus-content {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    flex-direction: column;
+
+    margin-right: 3rem;
+}
+
+.app__findus-content h1 {
+    color: var(--DCCA87, #DCCA87);
+    text-align: center;
+    font-family: Cormorant Upright;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%;
+    /* 83.2px */
+    letter-spacing: 2.56px;
+    text-transform: capitalize;
+
+    margin-bottom: 2rem;
+}
+
+.app__findus-content .text {
+    color: var(--AAAAAA, #AAA);
+
+    /* Body 16px Regular */
+    font-family: Open Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 175%;
+    /* 28px */
+    letter-spacing: 0.64px;
+
+    margin-bottom: 2rem;
+}
+
+
+.app__findus-content h2 {
+    color: var(--DCCA87, #DCCA87);
+    font-variant-numeric: lining-nums tabular-nums;
+
+    /* H5 23px Cormorant Upright */
+    font-family: Cormorant Upright;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%;
+    /* 29.9px */
+    letter-spacing: 0.92px;
+    text-transform: capitalize;
+
+    margin-bottom: 2rem;
+}
+
+.app__findus-content h3 {
+    color: var(--FFFFFF, #FFF);
+
+    /* Body 16px Regular */
+    font-family: Open Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 175%;
+    /* 28px */
+    letter-spacing: 0.64px;
+
+    margin-bottom: 0.5rem;
+}
+
+.app__findus-image img {
+    width: 459px;
+    height: auto;
+
+    /* width: auto; */
+    /* height: 642px; */
+}
+
+
+@media screen and (max-width:990px) {
+    .app__findus {
+        flex-direction: column;
+    }
+
+    .app__findus-image img {
+
+        margin-top: 2rem;
+        width: 359px;
+       
+    }
+
+    .app__findus-content {
+     
+        margin-right: 0rem;
+    }
+    
+}
+
+
+@media screen and (max-width:390px) {
+ 
+    .app__findus-image img {
+
+        margin-top: 2rem;
+        width: 259px;
+       
+    }
+    
+
+    .app__findus-content {
+     
+        margin-right: 0rem;
+    }
+
+    .app__findus-content h1{
+        font-size: 50px;
+        margin-bottom: 1rem;
+    }
+
+    .app__findus-content h3{
+        font-size: 13.5px;
+        margin-bottom: 1rem;
+    }
+}
